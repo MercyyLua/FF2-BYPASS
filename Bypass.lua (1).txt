@@ -1,0 +1,6 @@
+if game.PlaceId == 8204899140 then
+    game:GetService("Players").LocalPlayer:Kick("Please join a game that is NOT FF2")
+    return;
+end
+  
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/80c7ab9774ae53c72d6d57dc8297d5df.lua"))()
